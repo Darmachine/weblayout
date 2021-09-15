@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+<style>
+    header{
+        background-color: aquamarine;
+        margin: 18px 5px 18px 5px
+    }
+    nav{
+       background-color: aqua; 
+    }
+    .flex-container {
+  display: flex;
+  flex-direction: column
+  flex-basis 75% 25%
+  background-color: aquamarine;
+  padding: 10px;
+}
+.flex-item {
+  background-color: aqua;
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+    aside{background-color: aqua;
+        height: 300px;
+        width: 2fr;
+    flex: 1;}
+    
+    section{background-color: aqua;
+        height: 300px
+        width: 1fr
+     flex: 3;}
+    footer{background-color: aqua
+    ;}
+</style>
+</head>
+<body>
+    <header>
+        <h1>INI ADALAH HEADER</h1>
+    </header>
+    <nav><h1>ini adalah navigasi</h1></nav>
+    <div class="flex-container">
+        <div class="flex-item">
+            <aside><h1>Ini adalah sidebar</h1></aside>
+        </div>
+        <div class="flex-item"><section>ini adalah content</section></div>
+  </div>
+      <footer><h1>ini adalah footer</h1></footer>
+</body>
+</html>
